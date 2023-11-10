@@ -1,3 +1,5 @@
 vosk
 PyAudio
 streamlit
+bokeh
+streamlit-bokeh-events

@@ -1,5 +1,6 @@
 import streamlit as st
 from voice_recignizing_button import voice_recignizing_button
+from jsrecordbutton import jsbutton
 import vosk
 def main():
     model = vosk.Model("vosk-model-small-ru-0.22")
@@ -15,7 +16,7 @@ def main():
         unsafe_allow_html=True,
     )
 
-    voice_recignizing_button(model)
+    jsbutton()
 
 if __name__ == "__main__":
     main()
