@@ -1,3 +1,2 @@
 portaudio19-dev
-bokeh==2.4.3
 python3-all-dev
