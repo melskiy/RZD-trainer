@@ -1,5 +1,4 @@
 import streamlit as st
-import speech_recognition as sr
 from voice_recognize import vosk_voice_recignize
 
 def voice_recignizing_button(model):

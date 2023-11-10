@@ -1,4 +1,4 @@
-from vosk import Model, KaldiRecognizer
+from vosk import KaldiRecognizer
 import pyaudio
 
 def vosk_voice_recignize(model):
