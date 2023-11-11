@@ -7,7 +7,7 @@ def voice_recignizing_button(model):
         <style>
         .stButton{
             position: fixed;
-            right: 20px;
+            right: 0px;
             bottom: 20px; 
         }
         </style>
